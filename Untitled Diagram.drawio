@@ -1,66 +1,66 @@
-<mxfile host="www.draw.io" modified="2020-03-06T12:25:05.340Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="UMY0mO4GrBNRe9xg-xCb" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-06T14:17:25.593Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="7XQ0aan0fzR-vDGbJqrV" version="12.8.1" type="github">
   <diagram id="AS1FFeoEsYkGY7oIBcrt" name="Page-1">
-    <mxGraphModel dx="1408" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1408" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_Gagdle6qU8eLhZm6alr-2" value="&amp;nbsp; Automated call serialization generator" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=16;fillColor=#D4E1F5;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-2" value="&amp;nbsp; Automated call serialization generator" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=16;fillColor=#D4E1F5;" parent="1" vertex="1">
           <mxGeometry x="170" y="70" width="600" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-1" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-1" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;" parent="1" vertex="1">
           <mxGeometry x="50" y="140" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-3" target="_Gagdle6qU8eLhZm6alr-9">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Gagdle6qU8eLhZm6alr-3" target="_Gagdle6qU8eLhZm6alr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-11" value="List of serializable functions&lt;br style=&quot;font-size: 9px&quot;&gt;and its definitions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#000000;fontSize=9;" vertex="1" connectable="0" parent="_Gagdle6qU8eLhZm6alr-10">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-11" value="List of serializable functions&lt;br style=&quot;font-size: 9px&quot;&gt;and its definitions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#000000;fontSize=9;" parent="_Gagdle6qU8eLhZm6alr-10" vertex="1" connectable="0">
           <mxGeometry x="-0.394" y="-1" relative="1" as="geometry">
             <mxPoint x="32.97" y="-11.030000000000001" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-3" value="clang -ast-dump" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-3" value="clang -ast-dump" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="175" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-5" target="_Gagdle6qU8eLhZm6alr-7">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Gagdle6qU8eLhZm6alr-5" target="_Gagdle6qU8eLhZm6alr-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-5" value="Old&lt;br&gt;Encoders/&lt;br&gt;Decoder&lt;br&gt;e.g. *_ser.c" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#E6E6E6;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-5" value="Old&lt;br&gt;Encoders/&lt;br&gt;Decoder&lt;br&gt;e.g. *_ser.c" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;fillColor=#E6E6E6;" parent="1" vertex="1">
           <mxGeometry x="40" y="280" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-6" value="New&lt;br&gt;Encoders/&lt;br&gt;Decoders&lt;br&gt;e.g. *_ser.c" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-6" value="New&lt;br&gt;Encoders/&lt;br&gt;Decoders&lt;br&gt;e.g. *_ser.c" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="364" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-7" target="_Gagdle6qU8eLhZm6alr-9">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_Gagdle6qU8eLhZm6alr-7" target="_Gagdle6qU8eLhZm6alr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-13" value="User changes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=9;fontColor=#000000;" vertex="1" connectable="0" parent="_Gagdle6qU8eLhZm6alr-12">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-13" value="User changes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=9;fontColor=#000000;" parent="_Gagdle6qU8eLhZm6alr-12" vertex="1" connectable="0">
           <mxGeometry x="-0.3351" y="3" relative="1" as="geometry">
             <mxPoint x="-12" y="-9.51" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-7" target="_Gagdle6qU8eLhZm6alr-9">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=9;fontColor=#000000;" parent="1" source="_Gagdle6qU8eLhZm6alr-7" target="_Gagdle6qU8eLhZm6alr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-15" value="Serialization hints" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=9;fontColor=#000000;" vertex="1" connectable="0" parent="_Gagdle6qU8eLhZm6alr-14">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-15" value="Serialization hints" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=9;fontColor=#000000;" parent="_Gagdle6qU8eLhZm6alr-14" vertex="1" connectable="0">
           <mxGeometry x="-0.6231" relative="1" as="geometry">
             <mxPoint y="-12.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-7" value="clang -ast-dump" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-7" value="clang -ast-dump" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="305" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;fontColor=#000000;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-9" target="_Gagdle6qU8eLhZm6alr-16">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;fontColor=#000000;" parent="1" source="_Gagdle6qU8eLhZm6alr-9" target="_Gagdle6qU8eLhZm6alr-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-19" value="Abstract description&lt;br&gt;of encoders/decoders" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=9;fontColor=#000000;" vertex="1" connectable="0" parent="_Gagdle6qU8eLhZm6alr-18">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-19" value="Abstract description&lt;br&gt;of encoders/decoders" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=9;fontColor=#000000;" parent="_Gagdle6qU8eLhZm6alr-18" vertex="1" connectable="0">
           <mxGeometry x="-0.2397" y="-3" relative="1" as="geometry">
             <mxPoint x="10.17" y="-20.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-9" value="PARSER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-9" value="PARSER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="230" width="120" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=80;entryDy=57;entryPerimeter=0;fontSize=12;fontColor=#000000;elbow=vertical;curved=1;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-16" target="_Gagdle6qU8eLhZm6alr-6">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=80;entryDy=57;entryPerimeter=0;fontSize=12;fontColor=#000000;elbow=vertical;curved=1;" parent="1" source="_Gagdle6qU8eLhZm6alr-16" target="_Gagdle6qU8eLhZm6alr-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="830" y="258" />
@@ -68,20 +68,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-16" value="GENERATOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-16" value="GENERATOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="230" width="120" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;exitX=0.5;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-20" target="_Gagdle6qU8eLhZm6alr-16">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;exitX=0.5;exitY=0.85;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="_Gagdle6qU8eLhZm6alr-20" target="_Gagdle6qU8eLhZm6alr-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-20" value="Templates, e.g.&lt;br&gt;func. encoders/decoders,&lt;br&gt;type specific encoders/decoders&lt;br&gt;callback encoders/decoders" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-20" value="Templates, e.g.&lt;br&gt;func. encoders/decoders,&lt;br&gt;type specific encoders/decoders&lt;br&gt;callback encoders/decoders" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=none;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="550" y="90" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="_Gagdle6qU8eLhZm6alr-26" target="_Gagdle6qU8eLhZm6alr-3">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" parent="1" source="_Gagdle6qU8eLhZm6alr-26" target="_Gagdle6qU8eLhZm6alr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Gagdle6qU8eLhZm6alr-26" value="API&lt;br&gt;Source Files&lt;br&gt;e.g. *.c, *.h" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;" vertex="1" parent="1">
+        <mxCell id="_Gagdle6qU8eLhZm6alr-26" value="API&lt;br&gt;Source Files&lt;br&gt;e.g. *.c, *.h" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=14;" parent="1" vertex="1">
           <mxGeometry x="40" y="150" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bnm0LXKPncwR2bgNLSst-1" value="&lt;h1&gt;Comments&lt;/h1&gt;&lt;pre&gt;$ rp_ser_gen.py -I./include -DENABLE_ALL=1 --filter=sample_* -o sample_ser.c sample.c&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="750" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
