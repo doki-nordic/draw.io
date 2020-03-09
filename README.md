@@ -6,7 +6,9 @@ Steps for a new drawing:
 * If you are asked to select storage click `Decide later`,
 * Create new drawing,
 * Click `File` `Save as...`, enter a name, click `GitHub`,
-* Select this repo in `Select Folder` window,
+* Select this repo in `Select Folder` window, hints:
+  * you can change branch by clicking branch name in the path on the top,
+  * it is not possible to create a new branch or a directory in this window, so it have to be done on github before openning the `Save as...` window.
 * Click `File` `Embed` `IFrame`
 * Customize `Width` and `Height` if needed,
 * Select `Lightbox` and `Edit`
