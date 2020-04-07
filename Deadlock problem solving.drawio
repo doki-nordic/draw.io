@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-07T12:43:13.423Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="QRwOm1mpfhURSbxEspPv" version="12.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-07T12:46:36.583Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="rMDJ99XtJS3K_fxym7V1" version="12.9.8" type="github">
   <diagram id="xgrzt0RMuhMkAyC4IfRt" name="Page-1">
     <mxGraphModel dx="942" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1067,8 +1067,23 @@
         <mxCell id="WUBMWal4IFo-aIh_Iq9I-1" value="ID" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="160" y="3360" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WUBMWal4IFo-aIh_Iq9I-2" value="payload" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="WUBMWal4IFo-aIh_Iq9I-2" value="Parameters" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="200" y="3400" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WUBMWal4IFo-aIh_Iq9I-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="3320" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WUBMWal4IFo-aIh_Iq9I-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="3360" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WUBMWal4IFo-aIh_Iq9I-6" value="Transport packet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="3320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WUBMWal4IFo-aIh_Iq9I-7" value="RPC packet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="3360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WUBMWal4IFo-aIh_Iq9I-8" value="Serialization packet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="3400" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
