@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-08T09:45:09.764Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="gxBIqz4BUoGre09ClN6u" version="12.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-08T09:52:31.512Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="VDW4IFTRrIvaRP1qsxKC" version="12.9.9" type="github">
   <diagram id="xgrzt0RMuhMkAyC4IfRt" name="Page-1">
     <mxGraphModel dx="650" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -634,7 +634,7 @@
         <mxCell id="PQzGvBvh1XN56MC4Xkkl-44" value="EP&lt;br&gt;dst" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="3360" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PQzGvBvh1XN56MC4Xkkl-46" value="Type" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
+        <mxCell id="PQzGvBvh1XN56MC4Xkkl-46" value="Type&lt;br&gt;Group" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="280" y="3400" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PQzGvBvh1XN56MC4Xkkl-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PQzGvBvh1XN56MC4Xkkl-52" target="PQzGvBvh1XN56MC4Xkkl-53" edge="1">
@@ -1077,16 +1077,16 @@
           <mxGeometry x="320" y="3400" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WUBMWal4IFo-aIh_Iq9I-2" value="Parameters" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
-          <mxGeometry x="360" y="3440" width="240" height="40" as="geometry" />
+          <mxGeometry x="360" y="3480" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WUBMWal4IFo-aIh_Iq9I-6" value="Transport packet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="3360" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WUBMWal4IFo-aIh_Iq9I-7" value="RPC packet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
+        <mxCell id="WUBMWal4IFo-aIh_Iq9I-7" value="RPC packet (variant 1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="3400" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WUBMWal4IFo-aIh_Iq9I-8" value="Serialization packet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="3440" width="160" height="40" as="geometry" />
+          <mxGeometry x="690" y="3480" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h5zFton7O5CiCkdlQExk-1" value="SOF" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="3320" width="80" height="40" as="geometry" />
@@ -1315,6 +1315,18 @@
         </mxCell>
         <mxCell id="h5zFton7O5CiCkdlQExk-97" value="Type != CMD, EVT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="3640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h5zFton7O5CiCkdlQExk-101" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3440" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h5zFton7O5CiCkdlQExk-102" value="0xFF" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="3440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h5zFton7O5CiCkdlQExk-103" value="Type" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="3440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h5zFton7O5CiCkdlQExk-104" value="RPC packet (variant 2)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="3440" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
