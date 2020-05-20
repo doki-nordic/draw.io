@@ -1,98 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2020-05-20T08:55:29.698Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="WpCfLo4DMZO5lb7K5Kux" version="13.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-20T09:06:43.829Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="TKiD3he4p3B27qeX5VWG" version="13.1.2" type="github">
   <diagram id="NBGwnGHwEVBGiKM5YV63" name="Page-1">
-    <mxGraphModel dx="1422" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-16" value="&lt;b&gt;Transport&lt;/b&gt;&lt;br&gt;&lt;i&gt;nrf_rpc_tr_tmpl.h&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="50" y="290" width="340" height="60" as="geometry" />
+          <mxGeometry x="39" y="280" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-17" value="Physical transport medium&lt;br&gt;(e.g. shared memory, UART)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="50" y="370" width="200" height="60" as="geometry" />
+          <mxGeometry x="39" y="360" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-18" value="&lt;b&gt;nRF_RPC core&lt;/b&gt;&lt;br&gt;&lt;i&gt;nrf_rpc.c/h&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#A6E1FF;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="50" y="210" width="500" height="60" as="geometry" />
+          <mxGeometry x="39" y="200" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-19" value="&lt;b&gt;Logger abstraction&lt;/b&gt;&lt;br&gt;&lt;i&gt;nrf_rpc_log_tmpl.h&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="400" y="290" width="150" height="60" as="geometry" />
+          <mxGeometry x="389" y="280" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-20" value="OS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="260" y="370" width="290" height="60" as="geometry" />
+          <mxGeometry x="249" y="360" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-21" value="&lt;b&gt;TinyCBOR serialization&lt;/b&gt;&lt;br&gt;&lt;i&gt;nrf_rpc_cbor.c/h&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#A6E1FF;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="310" y="130" width="240" height="60" as="geometry" />
+          <mxGeometry x="299" y="120" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-23" value="&lt;b&gt;User API&lt;br&gt;serialization&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#9AC7BF;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="310" y="50" width="110" height="60" as="geometry" />
+          <mxGeometry x="299" y="40" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-24" value="&lt;b&gt;BLE API serialization&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#9AC7BF;shadow=1;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="440" y="50" width="110" height="60" as="geometry" />
+          <mxGeometry x="429" y="40" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-27" value="&lt;b&gt;User API&lt;br&gt;serialization&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#9AC7BF;shadow=1;strokeColor=#666666;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="180" y="50" width="110" height="140" as="geometry" />
+          <mxGeometry x="169" y="40" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-28" value="&lt;b&gt;User API&lt;br&gt;serialization&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#9AC7BF;shadow=1;strokeColor=#666666;arcSize=7;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="110" height="140" as="geometry" />
+          <mxGeometry x="39" y="40" width="110" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-29" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="360" as="sourcePoint" />
-            <mxPoint x="780" y="360" as="targetPoint" />
+            <mxPoint x="799" y="350" as="sourcePoint" />
+            <mxPoint x="799" y="350" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="440" />
-              <mxPoint x="40" y="440" />
-              <mxPoint x="40" y="360" />
+              <mxPoint x="799" y="430" />
+              <mxPoint x="29" y="430" />
+              <mxPoint x="29" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-30" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="280" as="sourcePoint" />
-            <mxPoint x="780" y="280" as="targetPoint" />
+            <mxPoint x="799" y="270" as="sourcePoint" />
+            <mxPoint x="799" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="360" />
-              <mxPoint x="40" y="360" />
-              <mxPoint x="40" y="280" />
+              <mxPoint x="799" y="350" />
+              <mxPoint x="29" y="350" />
+              <mxPoint x="29" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-31" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="120" as="sourcePoint" />
-            <mxPoint x="780" y="120" as="targetPoint" />
+            <mxPoint x="799" y="110" as="sourcePoint" />
+            <mxPoint x="799" y="110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="280" />
-              <mxPoint x="40" y="280" />
-              <mxPoint x="40" y="200" />
-              <mxPoint x="300" y="200" />
-              <mxPoint x="300" y="120" />
+              <mxPoint x="799" y="270" />
+              <mxPoint x="29" y="270" />
+              <mxPoint x="29" y="190" />
+              <mxPoint x="290" y="190" />
+              <mxPoint x="290" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-32" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="40" as="sourcePoint" />
-            <mxPoint x="780" y="40" as="targetPoint" />
+            <mxPoint x="799" y="30" as="sourcePoint" />
+            <mxPoint x="799" y="30" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="780" y="120" />
-              <mxPoint x="300" y="120" />
-              <mxPoint x="300" y="200" />
-              <mxPoint x="40" y="200" />
-              <mxPoint x="40" y="40" />
+              <mxPoint x="799" y="110" />
+              <mxPoint x="290" y="110" />
+              <mxPoint x="290" y="190" />
+              <mxPoint x="29" y="190" />
+              <mxPoint x="29" y="30" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zE_9-KKI3P1g9O8DVMl6-33" value="OS, HW layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="370" width="200" height="60" as="geometry" />
+        <mxCell id="zE_9-KKI3P1g9O8DVMl6-33" value="&lt;b&gt;OS and HW layer&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="569" y="360" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zE_9-KKI3P1g9O8DVMl6-34" value="nRF_RPC&amp;nbsp;OS-dependent layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="290" width="200" height="60" as="geometry" />
+        <mxCell id="zE_9-KKI3P1g9O8DVMl6-34" value="&lt;b&gt;nRF_RPC&amp;nbsp;OS-dependent layer&lt;/b&gt;&lt;br&gt;Communicating with a transport medium&lt;br&gt;Managing thread pool&lt;br&gt;Thread synchronization&lt;br&gt;Logging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="569" y="270" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zE_9-KKI3P1g9O8DVMl6-35" value="nRF_RPC OS-independent layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="130" width="200" height="140" as="geometry" />
+        <mxCell id="zE_9-KKI3P1g9O8DVMl6-35" value="&lt;b&gt;nRF_RPC OS-independent layer&lt;/b&gt;&lt;br&gt;&lt;br&gt;Registering parsers&lt;br&gt;Forming packets&lt;br&gt;Parsing incoming packet&lt;br&gt;Dispatching calls" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="569" y="120" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zE_9-KKI3P1g9O8DVMl6-36" value="Specific API serialization" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="50" width="200" height="60" as="geometry" />
+        <mxCell id="zE_9-KKI3P1g9O8DVMl6-36" value="&lt;b&gt;Specific API serialization&lt;/b&gt;&lt;br&gt;&lt;br&gt;Function parameters encoding&lt;br&gt;Function results decoding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
+          <mxGeometry x="569" y="40" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
