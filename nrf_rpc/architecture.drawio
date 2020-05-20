@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-05-20T09:06:43.829Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="TKiD3he4p3B27qeX5VWG" version="13.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-05-20T09:07:36.205Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="YS-NhpMBHFMdsqx4TeXK" version="13.1.2" type="github">
   <diagram id="NBGwnGHwEVBGiKM5YV63" name="Page-1">
-    <mxGraphModel dx="1673" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,13 +85,13 @@
         <mxCell id="zE_9-KKI3P1g9O8DVMl6-33" value="&lt;b&gt;OS and HW layer&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
           <mxGeometry x="569" y="360" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zE_9-KKI3P1g9O8DVMl6-34" value="&lt;b&gt;nRF_RPC&amp;nbsp;OS-dependent layer&lt;/b&gt;&lt;br&gt;Communicating with a transport medium&lt;br&gt;Managing thread pool&lt;br&gt;Thread synchronization&lt;br&gt;Logging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;spacing=2;" vertex="1" parent="1">
+        <mxCell id="zE_9-KKI3P1g9O8DVMl6-34" value="&lt;b&gt;nRF_RPC&amp;nbsp;OS-dependent layer&lt;/b&gt;&lt;br&gt;Communicating with a transport medium&lt;br&gt;Managing a thread pool&lt;br&gt;Thread synchronization&lt;br&gt;Logging" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;spacing=2;" vertex="1" parent="1">
           <mxGeometry x="569" y="270" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zE_9-KKI3P1g9O8DVMl6-35" value="&lt;b&gt;nRF_RPC OS-independent layer&lt;/b&gt;&lt;br&gt;&lt;br&gt;Registering parsers&lt;br&gt;Forming packets&lt;br&gt;Parsing incoming packet&lt;br&gt;Dispatching calls" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
+        <mxCell id="zE_9-KKI3P1g9O8DVMl6-35" value="&lt;b&gt;nRF_RPC OS-independent layer&lt;/b&gt;&lt;br&gt;Registering parsers&lt;br&gt;Forming packets&lt;br&gt;Parsing incoming packet&lt;br&gt;Dispatching calls" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
           <mxGeometry x="569" y="120" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zE_9-KKI3P1g9O8DVMl6-36" value="&lt;b&gt;Specific API serialization&lt;/b&gt;&lt;br&gt;&lt;br&gt;Function parameters encoding&lt;br&gt;Function results decoding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
+        <mxCell id="zE_9-KKI3P1g9O8DVMl6-36" value="&lt;b&gt;Specific API serialization&lt;/b&gt;&lt;br&gt;Function parameters encoding&lt;br&gt;Function results decoding" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;" vertex="1" parent="1">
           <mxGeometry x="569" y="40" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
